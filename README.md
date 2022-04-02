@@ -1,4 +1,4 @@
-# tic-tac-joe-javascript
+# tic-tac-joe
 Tic-Tac-Toe game in Javascript for DIO exercise.
 
 Game can be played at:
