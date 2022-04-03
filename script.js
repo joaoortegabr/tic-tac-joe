@@ -20,12 +20,15 @@ function selectSquare(id) {
     }
 
     square.innerHTML = player;
-    square.style.color = '#000';
 
     if(player == "X") {
         player = "O";
+        square.style.color = '#f00';
+//      square.style.backgroundImage = 'url(./face1.png)';
+
     } else {
         player = "X";
+        square.style.color = '#000';
     }
 
     changePlayer(player);
@@ -125,3 +128,4 @@ function restartGame() {
     pLine.style.display = 'block';
     wLine.style.display = 'none';
 }
+
